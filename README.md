@@ -36,7 +36,9 @@ init_cpp_env() {
   cp ~/.config/nvim/templates/.clangd .
   cp ~/.config/nvim/templates/.clang-format .
   echo "✅ Clangd and Format configs deployed to $(pwd)"
-}```
+}
+```
+
 只需要输入 init_cpp_env 就能配置好clangd了。
 
 ## 基础操作
