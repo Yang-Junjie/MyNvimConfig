@@ -33,3 +33,5 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "向上移动选中行" })
 
 -- 保持粘贴寄存器
 vim.keymap.set("x", "<leader>p", '"_dP', { desc = "粘贴不覆盖寄存器" })
+
+vim.keymap.set("i", "jk", "<Esc>", { desc = "使用 jk 退出插入模式" })
